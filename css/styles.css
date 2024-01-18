@@ -3753,6 +3753,11 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #212529;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -10909,11 +10914,14 @@ p {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 1.5rem;
+    /* padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border: none;
     background-color: transparent;
-    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #212529;
   }
   #mainNav .navbar-brand {
     font-size: 1.5em;
